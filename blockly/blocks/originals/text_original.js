@@ -364,7 +364,7 @@ Blockly.Blocks['text_print'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "DISPLAY %1",
+      "message0": Blockly.Msg.TEXT_PRINT_TITLE,
       "args0": [
         {
           "type": "input_value",
